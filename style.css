@@ -1,0 +1,249 @@
+a{
+    text-decoration: none;
+}
+.main-nav{
+    width: 100%;
+    height: 80px;
+    background-color: bisque;
+    display: flex;
+}
+.logo{
+    width: 50%;
+    padding: 20px 0px 0px 20px;
+}
+.line-3{
+    width: 50%;
+    text-align: end;
+    padding: 15px 20px 0px 0px;
+    font-size: 30px;
+    color: black;
+}
+.line-3:hover{
+    color: rgb(58, 57, 57);
+}
+.nav-slider{
+    height: 500px;
+    background-color: rgb(37, 34, 34);
+    width: 250px;
+    position: absolute;
+    top: 0px;
+    border-radius: 0px 0px 30px 0px;
+    display: none;
+    z-index: 99999999999999999999999999999999999999999999;
+}
+.cros{
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding: 20px 20px 0px 0px;
+    font-size: 30px;
+}
+.nav-a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 0px 5px 0px;
+}
+.nav-a:hover{
+    color: rgb(102, 97, 76);
+}
+.main-section{
+    margin: 0px !important;
+}
+.main-sec{
+    padding: 0 !important;
+}
+.main-img{
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    object-position: left;
+    object-fit: cover;
+}
+.port-p{
+    margin: 70px 0px 10px 100px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.port-h1{
+    margin: 50px 0px 0px 100px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.port-span{
+    color: rgb(236, 87, 17);
+}
+.port-contact{
+    margin: 40px 0px 20px 100px;
+}
+.port-contact-a{
+    border: 2px solid rgb(64, 64, 64);
+    color: rgb(64, 64, 64);
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.port-contact-a:hover{
+    color: white;
+    background-color: black;
+}
+.sec-main{
+    margin: 160px !important;
+}
+.sec-h6{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.sec-a{
+    display: block;
+    text-decoration: none !important;
+    color: black;
+    font-size: 40px;
+    padding: 10px 0px 10px 0px;
+    text-align: left;
+}
+@media only screen and (max-width: 600px){
+    .sec-a{
+        font-size: 30px;
+    }
+}
+.sec-a:hover{
+    color: rgb(236, 87, 17);
+    text-decoration: underline 3px solid rgb(236, 87, 17) !important;
+}
+.rd-h6{
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+.rd-h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 20px 0px 60px 0px;
+}
+.product-main{
+    padding: 10px 80px 10px 80px;
+    margin: 0px !important;
+    display: flex;
+    justify-content: space-evenly;
+}
+.product{
+    padding: 20px !important;
+    height: 300px;
+    width: 300px;
+    overflow: hidden !important;
+}
+.pro-mainn{
+    background-image: url('back1.png');
+    background-position: bottom;
+}
+.img-pro{
+    height: 100%;
+    width: 100%;
+    transition: transform 1s, border-radius 1s;
+}
+.img-pro:hover{
+    transform: scale(1.2);
+    border-radius: 20px;
+}
+.view-btn{
+    text-align: center;
+    text-decoration: none !important;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 40px;
+    margin-bottom: 50px;
+}
+.view-btn:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+.last-form-main{
+    background-image: url('back2.png');
+    background-position: center;
+    padding: 100px;
+}
+.last-h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+@media only screen and (max-width: 600px) {
+    .last-h1{
+        font-size: 30px;
+        margin: 20px 0px 150px 0px !important;
+    }
+  }
+.last-h4{
+    color: white;
+    font-size: 30px;
+}
+.last-p{
+    color: white;
+    font-size: 25px;
+}
+.form{
+    width: 100%;
+    background-color: rgb(41, 45, 51);
+    border-radius: 20px;
+    padding: 30px;
+}
+.type{
+    width: 100%;
+}
+.name{
+    height: 50px;
+    border-radius: 18px;
+    margin: 5px;
+}
+.email{
+    margin: 5px;
+    height: 50px;
+    border-radius: 18px;
+}
+.message{
+    margin: 5px;
+    height: 200px;
+    border-radius: 18px;
+}
+.submit{
+    display: block;
+    width: 100%;
+    margin: 5px;
+    border-radius: 18px;
+    background-color: rgb(236, 87, 17);
+    color: white;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    text-decoration: none !important;
+    font-size: 20px;
+}
+.submit:hover{
+    color: rgb(236, 87, 17);
+    background-color: white;
+}
+.footer-main{
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 200px;
+}
+.footer-p{
+    text-align: center;
+    color: white;
+    
+}
